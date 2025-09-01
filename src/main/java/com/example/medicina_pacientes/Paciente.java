@@ -1,5 +1,4 @@
 package com.example.medicina_pacientes;
-
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonPropertyOrder({
@@ -14,8 +13,7 @@ public class Paciente {
     private String historialMedico;
     private String atencionMedica; 
 
-    public Paciente(int id, String nombres, String apellidos, String rut,
-                    String fechaDeNacimiento, String historialMedico, String atencionMedica) {
+    public Paciente(int id, String nombres, String apellidos, String rut, String fechaDeNacimiento, String historialMedico, String atencionMedica) {
         this.id = id;
         this.nombres = nombres;
         this.apellidos = apellidos;
